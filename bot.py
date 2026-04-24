@@ -36,8 +36,8 @@ from telegram.ext import (
 #     BOT_TOKEN  =  BotFatherdan olgan token
 #     WEBHOOK_URL = https://your-app.up.railway.app
 # =====================================================
-BOT_TOKEN = os.environ.get("8797376130:AAGPmiJekbXdfVBjAJCsSmmB2yuXWD_Hf7M", "")
-WEBHOOK_URL = os.environ.get("web-production-08b6c.up.railway.app", "")      # https://your-app.up.railway.app
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8797376130:AAGPmiJekbXdfVBjAJCsSmmB2yuXWD_Hf7M")
+WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "https://web-production-08b6c.up.railway.app")      # https://your-app.up.railway.app
 PORT = int(os.environ.get("PORT", 8443))             # Railway avtomatik o'rnatadi
 
 # =====================================================
